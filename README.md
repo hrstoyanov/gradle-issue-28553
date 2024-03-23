@@ -14,4 +14,5 @@ Run this, for example:
 What you will see is the Wrapper processor works, but the Entity Codegen does not get picked up by Gradle 8.7 - you can see the partially 
 generated code in ```build/generated/sources/annotationProcessor```
 
-This seems like an issue with the anotation processor configurations! The annotation processor are known to work with Maven and well documented.
+This seems like an issue with the anotation processor configurations and handling in Gradle 8.7 (and eralier)! 
+These annotation processor are known to work with Maven and well documented.
